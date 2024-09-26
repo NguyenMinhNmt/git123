@@ -1,0 +1,59 @@
+@media only screen and (max-width: 600px) {
+  header ul li {
+    margin-right: 15px;
+  }
+
+
+  li button {
+    padding: 12px;
+  }
+
+  section.hero {
+    padding: 20px 15px;
+  }
+
+  div.info {
+    display: block
+  }
+
+  section.hero img {
+    width: 200px;
+  }
+
+  div.info span {
+    font-size: 10px;
+  }
+
+  div.info h1,
+  div.info h2 {
+
+    font-size: 30px;
+  }
+
+  div.info h1 span {
+    font-size: 30px;
+  }
+
+  section.portfolio {
+    padding: 12px 15px;
+  }
+
+  section.portfolio h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  div.card {
+    display: block;
+    margin-bottom: 60px;
+    width: 100%
+  }
+
+  div.card img {
+    margin-bottom: 10px;
+  }
+
+  div.card:nth-last-child(-n + 3) {
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div.box {
+  background-color: greenyellow;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+div.top-left {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+div.top-right {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+div.bottom-left {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+div.bottom-right {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+div.top-center {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+div.bottom-center {
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+div.left-center {
+  position: fixed;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+}
+
+div.right-center {
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+}
+
+div.center-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.box-sm {
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+div.ctl {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-100%, -100%);
+}
+
+div.ctr {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transform: translate(100%, -100%);
+}
+
+div.cbl {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transform: translate(-100%, 100%);
+}
+
+div.cbr {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  transform: translate(100%, 100%);
+}

@@ -1,0 +1,78 @@
+section.frame {
+  padding: 32px 144px var(--padding-section);
+  background-color: rgba(245, 247, 250, 1);
+
+}
+
+div.frame-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 78px;
+}
+
+div.frame-wrapper img {
+  width: 326px;
+}
+
+div.frame-content {}
+
+div.frame-content p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+div.frame-content h6 {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  color: #4CAF4F;
+  margin-bottom: 8px;
+
+
+}
+
+div.frame-content span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(137, 147, 158, 1);
+}
+
+div.frame-list-all {
+  display: flex;
+  justify-content: space-between;
+  gap: 38px;
+  text-align: center;
+  margin-top: 32px;
+  align-items: center;
+}
+
+div.frame-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 38px;
+  align-items: center;
+
+}
+
+div.frame-list img {
+  width: 48px;
+  height: 48px;
+}
+
+div.frame-button {}
+
+div.frame-button a {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #4CAF4F;
+
+}

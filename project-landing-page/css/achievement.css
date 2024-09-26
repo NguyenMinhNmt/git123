@@ -1,0 +1,88 @@
+section.achievement {
+  background-color: #F5F7FA;
+  padding: 64px var(--padding-section);
+}
+
+div.achievement-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+  align-items: center;
+}
+
+div.achievement-left {}
+
+div.achievement-left h4 {
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+div.achievement-left h4 span.highlight {
+  color: #4CAF4F;
+  display: block;
+}
+
+div.div.achievement-left p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+div.achievement-right {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+
+div.achievement-item {
+  display: flex;
+  margin-right: 30px;
+  width: calc(50% - 15px);
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+div.achievement-item:nth-child(2n) {
+  margin-right: 0px;
+}
+
+div.achievement-item i {
+  color: rgba(76, 175, 79, 1);
+  font-size: 30px;
+}
+
+div.achievement-item>span {
+  margin-left: 6px;
+}
+
+div.achievement-item span h5 {
+  font-family: "Inter";
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  letter-spacing: 2px;
+  color: rgba(77, 77, 77, 1);
+}
+
+div.achievement-item span span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(113, 113, 113, 1);
+
+}
+
+p {
+  color: rgba(113, 113, 113, 1);
+
+}

@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D8DAE2;
+  font-family: "Poppins", sans-serif;
+  padding: 48px 18px;
+  position: relative;
+}
+
+span.circle-1 {
+  width: 310px;
+  height: 294px;
+
+  background-color: #E5E7F0;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  right: 10%;
+  top: 0px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+span.circle-2 {
+  width: 433px;
+  height: 410px;
+  background-color: #E5E7F0;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  left: 239px;
+  top: 550px;
+  z-index: -1;
+
+}
+
+div.server {
+  margin-top: 216px;
+  border: 1px;
+  border-radius: 26px;
+  position: relative;
+  background-color: #EFF0F1;
+  padding: 62px;
+  margin-bottom: 207px;
+}
+
+div.server h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+div.category {
+  display: flex;
+}
+
+div.category p {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 8px;
+  margin-bottom: 56px;
+  border: 1px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+div.category p:last-child {
+  margin-right: 0px;
+}
+
+div.suggestion {
+  display: flex;
+  gap: 64px;
+}
+
+div.menu {
+  padding: 24px;
+  width: calc(100% / 3);
+  border: 1px;
+  border-radius: 32px;
+  background-color: #fff;
+}
+
+div.menu:last-child {
+  margin-right: 0px;
+}
+
+div.menu img {
+  object-fit: cover;
+  width: 100%;
+  height: 268px;
+  border: 1px;
+  border-radius: 24px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+div.menu div.sub {
+  font-size: 0px;
+
+  margin-bottom: 16px;
+}
+
+div.menu div.sub img {
+  width: calc((100% - 32px)/3);
+  height: 97px;
+  object-fit: cover;
+  margin-right: 16px;
+  display: inline-block;
+}
+
+div.menu div.sub img:last-child {
+  margin-right: 0px;
+}
+
+div.menu div.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main p {
+  font-family: "Poppins";
+  font-size: 24px;
+
+}
+
+div.main div {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+div.main div i {
+  width: 31px;
+}
