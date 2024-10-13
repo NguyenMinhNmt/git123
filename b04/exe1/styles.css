@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+div.slider {
+  background-color: #0091E7;
+  position: relative;
+  height: 400px;
+}
+
+div.slider div.content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+}
+
+
+
+div.slider div.dots {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-right: 10px;
+}
+
+
+
+
+div.dots span.dot {
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+
+  margin-right: 4px;
+}
+
+div.dots span.active {
+  background-color: yellow;
+}
+
+div.dots span:last-child {
+  margin-right: 0px;
+}

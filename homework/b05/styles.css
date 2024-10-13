@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #F3F2FD 0%, #F9F4FC 100%);
+
+
+  font-family: "Mulish";
+
+
+}
+
+
+div.wrapper {
+  background-color: #fff;
+  border: 1px;
+  border-radius: 10px;
+  font-size: 0px;
+  width: 1152px;
+  padding: 40px;
+  margin: 0px auto;
+}
+
+div.info {
+  background: linear-gradient(135deg, #BA91E9 0%, #6D58CE 100%);
+
+  color: #fff;
+  display: inline-block;
+  padding: 65px 159px 265px 65px;
+  margin-right: 95px;
+  width: 465px;
+  vertical-align: middle;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+div.item {
+  margin-bottom: 40px;
+
+
+}
+
+div.item:last-child {
+  margin-bottom: 0px;
+}
+
+span.icon {
+  background: rgba(255, 255, 255, 0.23);
+
+  border-radius: 50%;
+  margin-bottom: 17px;
+  width: 33px;
+  height: 33px;
+  display: inline-block;
+  text-align: center;
+  line-height: 33px;
+  font-size: 18px;
+}
+
+span.icon i {
+  color: #fff;
+}
+
+div h3 {
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+div p {
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+
+
+}
+
+div.form {
+
+  display: inline-block;
+  width: 417px;
+  vertical-align: middle;
+}
+
+div h1 {
+  font-family: "Mulish";
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 35px;
+
+}
+
+div.form-group input {
+  width: 417px;
+  height: 60px;
+  border: 1px solid #C6C8CD;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+div.form-group {
+  margin-bottom: 35px;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+div.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+div.noti {
+  margin-bottom: 40px;
+  line-height: 29px;
+
+}
+
+div.noti input {
+  width: 29px;
+  height: 29px;
+  display: inline-block;
+  border: 1px;
+  vertical-align: middle;
+
+}
+
+div.noti label {
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+div button {
+  width: 417px;
+  height: 60px;
+  background-color: #6E59CE;
+  color: #fff;
+  border: none;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+
+}

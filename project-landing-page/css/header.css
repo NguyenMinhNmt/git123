@@ -1,0 +1,38 @@
+header {
+  background-color: #F5F7FA;
+  padding: 22px var(--padding-section);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul.main-menu {
+  display: flex;
+  gap: 50px;
+}
+
+ul.action {
+  display: flex;
+  gap: 15px;
+
+}
+
+ul.action button.contact {
+  border: none;
+  background-color: #F5F7FA;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #4CAF4F;
+
+}
+
+ul.action button.btn {
+  background-color: #4CAF4F;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+}

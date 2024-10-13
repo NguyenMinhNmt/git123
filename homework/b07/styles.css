@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  padding: 20px;
+}
+
+th {}
+
+
+
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+  margin: 0px auto;
+  align-items: center;
+}
+
+tr.head {
+  background-color: #415466;
+  color: #fff;
+  height: 50px;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+  /* Màu nền xen kẽ cho các hàng */
+}
+
+table tr:nth-child(2n+2) {
+  background-color: white;
+}
+
+tr.head th p {}
+
+tr.head th.num {
+  width: 50px;
+}
+
+tr.head th.information {
+  width: 380px;
+}
+
+tr.head th.picture {
+  width: 180px;
+}
+
+tr.head th.status {
+  width: 172px;
+}
+
+tr.head th.arrange {
+  width: 97.5px;
+}
+
+tr.head th.create {
+  width: 225px;
+}
+
+tr.head th.edit {
+  width: 225px;
+}
+
+tr.head th.act {
+  width: 148px;
+}
+
+tr.between {
+  background-color: #F2F2F2;
+  border: none;
+
+}
+
+p {
+  margin-left: 8px;
+}
+
+tr.between td.information p {
+  font-weight: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+tr.between th.information p:last-child {
+  margin-bottom: 0px;
+}
+
+tr.between td.information span {
+  font-size: 16px;
+  line-height: 18.75px;
+  text-align: left;
+  font-weight: bold;
+  font-weight: 700;
+}
+
+
+tr.between td img {
+  width: 164px;
+  margin-left: 8px;
+}
+
+tr.between td.status {}
+
+tr.between td button {
+  padding: 0px 23px;
+  border: none;
+  background-color: #37B99B;
+  border: 1px solid #299F86;
+  border-radius: 30px;
+  margin-left: 8px;
+  color: #fff;
+  font-size: 16px;
+  height: 32px;
+}
+
+tr.between:nth-child(4) td button {
+  background-color: #2CA2B6;
+
+}
+
+
+tr.between td.arrange {}
+
+tr.between td.arrange input {
+  padding: 8.8px;
+  width: 65px;
+  height: 29.6px;
+  border: none;
+  border: 1px solid #DEE2E6
+}
+
+tr.between td.create {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+tr.between td.create p {
+  margin-bottom: 10px;
+}
+
+tr.between td.create p:last-child {
+  margin-bottom: 0px;
+}
+
+tr.between td.edit {
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+tr.between td.edit p {
+  margin-bottom: 8px;
+}
+
+tr.between td.edit p:last-child {
+  margin-bottom: 0px;
+}
+
+tr.between td.act {}
+
+td.act {
+  margin: 0px auto;
+}
+
+td.act a {
+  margin-right: 4px;
+
+  border: 1px;
+  border-radius: 50%;
+  color: #fff;
+
+  padding: 6.8px 8.8px 9.2px 8.8px;
+
+}
+
+td.act a :last-child {
+  margin-right: 0px;
+}
+
+td.act a.pen {
+  background-color: #37B99B;
+}
+
+td.act a.trash {
+  background-color: #D83347;
+}
+
+td.act a.arrow {
+  background-color: #6D757D;
+}

@@ -1,0 +1,76 @@
+section.article {
+  background-color: #fff;
+
+}
+
+div.article-wrapper {
+  padding: 48px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.article-wrapper h5 {
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+div.article-wrapper p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 16px;
+
+}
+
+div.article-list {
+  display: flex;
+  gap: 24px;
+}
+
+div.article-item {
+  flex: 1;
+}
+
+div.article-item img {
+  max-height: 286px;
+  width: 100%;
+}
+
+div.article-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 176px;
+  transform: translateY(-50%);
+  background-color: #F5F7FA;
+  box-shadow: 0px 8px 16px 0px #ABBED166;
+  margin: 0px 20px;
+  padding: 16px;
+
+}
+
+div.article-element h6 {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+  color: rgba(113, 113, 113, 1);
+
+}
+
+div.article-element a {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(76, 175, 79, 1);
+  text-align: center;
+
+}

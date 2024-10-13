@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  text-align: center;
+  padding: 18px;
+  color: black;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #14203E3D;
+  opacity: 0.9;
+
+  font-size: 22px;
+}
+
+
+ul.main-menu li a {
+  text-decoration: none;
+  color: black;
+
+}
+
+
+
+header ul.main-menu {
+  display: flex;
+  gap: 56px;
+}
+
+ul.action {
+  display: flex;
+  gap: 15px;
+
+}
+
+ul.action li button {
+  border: none;
+  border: 2px solid #1D1D2480;
+  padding: 13px 30px;
+  background-color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+ul.action li button.contact {
+  background-color: #F6F0E8;
+  border: 2px solid #F6F0E8;
+  border-radius: 10px;
+}
+
+ul.action li button.btn {
+  background-color: #14203E;
+  color: #fff;
+  border: 2px solid #14203E;
+  border-radius: 10px;
+}
+
+section.hero {
+  text-align: center;
+  align-items: center;
+  background-color: #FFFCF8;
+  padding: 130px 500px;
+  display: flex;
+  justify-content: center;
+}
+
+section.hero div.info {
+  width: 600px;
+
+}
+
+section.hero h1.title {
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 71.94px;
+  color: #14203E;
+  margin-bottom: 30px;
+
+
+}
+
+section.hero h2 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.6px;
+  color: #14203E;
+  margin-bottom: 40px;
+}
+
+section.hero button {
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  border: 1px solid #14203E;
+  background-color: #14203E;
+  border-radius: 10px;
+  padding: 25px 40px;
+  color: #fff;
+}
+
+section.portfolio {
+  padding: 30px 173px 62px 173px;
+
+}
+
+section.portfolio div.box-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+section.portfolio span.title-line {
+  height: 1px;
+  width: 200px;
+  display: block;
+  background-color: #14203E33;
+
+}
+
+section.portfolio h2 {}
+
+div.list-card {
+  display: flex;
+  gap: 30px;
+}
+
+div.card {
+  width: 25%;
+}
+
+div.card img {
+  width: 100%;
+  object-fit: cover;
+  height: 230px;
+}
